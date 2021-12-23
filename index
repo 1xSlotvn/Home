@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+	<title>BlackFyre - Ultimated Wordpress Gaming Theme</title>
+	<link href="https://skywarriorthemes.com/blackfyre/landing/boostrap.css" type="text/css" rel="stylesheet" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,700italic,900italic,900' rel='stylesheet' type='text/css'>
+<style>
+	html{
+	background: url(https://skywarriorthemes.com/blackfyre/landing/img/bg1.jpg) repeat-x center top #151618;
+}
+a{
+	color: white;
+	text-decoration: none;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	cursor: pointer;
+	font-weight: bold;
+	outline:none !important;
+}
+h2:hover{
+	color:#25c2f5;
+}
+body {
+	background-size: auto auto;
+	color: #666;
+	height: 100%;
+	font-family: Arial;
+	background: url(https://skywarriorthemes.com/blackfyre/landing/img/bg2.jpg) no-repeat center top ;
+	margin:0 auto;
+	padding-top: 15px;
+	background-color:transparent !important;
+	padding-bottom:50px;
+}
+
+.youtubew{
+	margin:0px auto;
+	width: 740px;
+	height: 429px;
+	padding:10px;
+	background-color: #000;
+	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.4), inset 0 1px 1px rgba(255,255,255,.2);
+	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.4), inset 0 1px 1px rgba(255,255,255,.2);
+	box-shadow: 1px 2px 3px rgba(0,0,0,.4), inset 0 1px 1px rgba(255,255,255,.2);
+	border: solid 1px #000;
+	background-image: -webkit-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -moz-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -o-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -ms-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: linear-gradient(to top, #1a1b1f, #212528);
+}
+iframe{
+	border: 1px solid black;
+}
+
+.choose{
+	margin: 70px auto 30px auto;
+	width: 400px;
+	text-align: center;
+	display: block;
+}
+
+
+/* Image hover effect block */
+
+.img-he-img, .img-heffect h2{
+	background-color: #212528;
+	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.2);
+	-moz-box-shadow: inset 0 1px 1px rgba(255,255,255,.2);
+	box-shadow: inset 0 1px 1px rgba(255,255,255,.2);
+	border: solid 1px #000;
+	background-image: -webkit-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -moz-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -o-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -ms-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: linear-gradient(to top, #1a1b1f, #212528);
+	width:100%;
+	padding:5px;
+}
+
+.img-he-img{
+	position: relative;
+	z-index:10;
+	top:0px;
+	transition:all 0.35s ease-in-out;
+	-moz-transition:all 0.35s ease-in-out;
+	-webkit-transition:all 0.35s ease-in-out;
+	-o-transition:all 0.35s ease-in-out;
+	background-color: #212528;
+	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.2);
+	-moz-box-shadow: inset 0 1px 1px rgba(255,255,255,.2);
+	box-shadow: inset 0 1px 1px rgba(255,255,255,.2);
+	border: solid 1px #000;
+	background-image: -webkit-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -moz-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -o-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: -ms-linear-gradient(bottom, #1a1b1f, #212528);
+	background-image: linear-gradient(to top, #1a1b1f, #212528);
+	width: 100%;
+	padding: 5px;
+}
+.img-he-img img{
+	border:1px solid black;
+	width:100%;
+}
+.img-heffect{
+	position:relative;
+}
+.img-heffect h2{
+	position: absolute;
+	z-index: 9;
+	bottom: 0px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 1px 3px black;
+	font-size: 20px;
+	font-family: 'Roboto', Arial;
+	font-weight: 700;
+	line-height: 1.1;
+	color: inherit;
+	margin: 10px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-rendering: optimizelegibility;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+.img-heffect:hover .img-he-img{
+	top:-80px;
+  transition:all 0.35s ease-in-out;
+  -moz-transition:all 0.35s ease-in-out;
+  -webkit-transition:all 0.35s ease-in-out;
+  -o-transition:all 0.35s ease-in-out;
+}
+.col-lg-4{
+	margin-bottom:20px;
+}
+
+
+</style>
+</head>
+<body>
+	<div class="youtubew">
+		<iframe id="ytplayer" type="text/html" width="720" height="405"
+src="https://www.youtube.com/embed/wf8nsodilmk?autoplay=1&color=red"
+frameborder="0" allowfullscreen></iframe>
+	</div>
+	<img src="https://skywarriorthemes.com/blackfyre/landing/img/choose.png" class="choose"/>
+
+	<div class="container">
+
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/02/f1.jpg"></div>
+		    	<h2>homepage - Slider</h2>
+		    	</a>
+		    </div>
+
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="http://skywarriorthemes.com/blackfyre/homepage/">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/03/promote.jpg"></div>
+		    	<h2>homepage - Promote</h2>
+		    	</a>
+		    </div>
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/homepage-parallax/">
+		    	 	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/03/parallax.jpg"></div>
+    				<h2>homepage - Parallax</h2>
+		    	</a>
+		    </div>
+
+		</div>
+
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/members/ravagericom/">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/03/profile.jpg"></div>
+		    	<h2>Member page</h2>
+		    	</a>
+		    </div>
+
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/user-registration">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/02/f6.jpg"></div>
+		    	<h2>Custom forms</h2>
+		    	</a>
+		    </div>
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/clan/navi">
+		    	 	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/02/f3.jpg"></div>
+    				<h2>Clan page</h2>
+		    	</a>
+		    </div>
+
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="http://skywarriorthemes.com/blackfyre/matches/weekend-match/">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/02/f4.jpg"></div>
+    			<h2>Clan matches</h2>
+		    	</a>
+		    </div>
+
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/duis-lacinia-nis-ve-lorem-scelerisque-interdum/">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/02/f2.jpg"></div>
+    			<h2>Eye-catching design</h2>
+		    	</a>
+		    </div>
+
+		</div>
+		<div class=" col-lg-4 col-md-4 col-sm-2">
+			<div class="img-heffect">
+		    	<a target="_self" href="https://skywarriorthemes.com/blackfyre/clan/virtus-pro/">
+		    	<div class="img-he-img"><img src="https://skywarriorthemes.com/blackfyre/wp-content/uploads/2015/02/f5.jpg"></div>
+    			<h2>Custom backgrounds</h2>
+		    	</a>
+		    </div>
+
+		</div>
+	</div>
+
+</body>
+</html>
